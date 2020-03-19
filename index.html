@@ -25,7 +25,6 @@
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars iconoResponsive"></i>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav m-auto text-center navbar-center">
         <li class="nav-item dropdown active">
@@ -59,7 +58,7 @@
       <div class="plans-container">
         <div class="plans">
           <div class="img-plans">
-            <img class="img" src="./imagenes/paraplogo.png" alt="">
+            <img class="img-border" src="./imagenes/paraplogo.png" alt="">
           </div>
           <div class="plans-icon">
             <i class="fas fa-plus icono" data-toggle="modal" data-target="#staticBackdrop"></i>
@@ -75,9 +74,11 @@
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
-                <div class="modal-body p-5">
-                  <img class="img" src="./imagenes/paraplogo.png" alt="">
-                  <p class="p-3">
+                <div class="modal-body p-4">
+                  <div class="modal-img">
+                    <img class="img" src="./imagenes/paraplogo.png" alt="">
+                  </div>
+                  <p class="p-2">
                     La majestuosidad y belleza del cañón de Chicamocha lo han convertido en uno de los lugares más
                     visitados en Colombia por
                     turistas nacionales y extranjeros, y el parapente es una de las mejores opciones para practicar
@@ -102,7 +103,7 @@
         </div>
         <div class="plans">
           <div class="img-plans">
-            <img class="img" src="./imagenes/raftinglogi.jpeg" alt="">
+            <img class="img-border" src="./imagenes/raftinglogi.jpeg" alt="">
           </div>
           <div class="plans-icon">
             <i class="fas fa-plus icono" data-toggle="modal" data-target="#staticBackdrop2"></i>
@@ -118,9 +119,11 @@
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
-                <div class="modal-body p-5">
-                  <img class="img" src="./imagenes/raftinglogi.jpeg" alt="">
-                  <p class="p-3">
+                <div class="modal-body p-4">
+                  <div class="modal-img">
+                    <img class="img" src="./imagenes/raftinglogi.jpeg" alt="">
+                  </div>
+                  <p class="p-2">
                     Muy cerca del Parque San Agustín, reconocido por sus joyas arqueológicas, y del imponente Macizo
                     Colombiano, el
                     nacimiento del río Magdalena, en el departamento del Huila, brinda la oportunidad de practicar el
@@ -143,7 +146,7 @@
         </div>
         <div class="plans">
           <div class="img-plans">
-            <img class="img" src="./imagenes/trekkinglogos.png" alt="">
+            <img class="img-border" src="./imagenes/trekkinglogos.png" alt="">
           </div>
           <div class="plans-icon">
             <i class="fas fa-plus icono" data-toggle="modal" data-target="#staticBackdrop3"></i>
@@ -159,9 +162,11 @@
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
-                <div class="modal-body p-5">
+                <div class="modal-body p-4">
+                  <div class="modal-img">
                   <img class="img" src="./imagenes/trekkinglogos.png" alt="">
-                  <p class="p-3">
+                  </div>
+                  <p class="p-2">
                     También llamada Teyuna o Buritaca 200, Ciudad Perdida es uno de los mayores tesoros arqueológicos de
                     Suramérica y del
                     mundo, y el padre de la aventura trekking en Colombia. Acceder a la compleja arquitectura del centro
@@ -207,7 +212,6 @@
     </section>
     <h2 class="section-title">Contáctanos</h2>
     <section id="section3" class="section3">
-      <div class="form-container">
         <form action="" name="formulario">
           <fieldset class="formulario">
             <p class="legend">Dejanos tus datos</p>
@@ -228,19 +232,20 @@
               </td>
               <tr>
                 <td class="td_form"><label for="message">Escribe tu mensaje:</label></td>
-                <td class="td_form"><textarea rows="10" cols="40" required maxlength="150" id="message"
+                <td class="td_form"><textarea rows="10" cols="30" required maxlength="150" id="message"
                     class="texta_form"></textarea></td>
               </tr>
             </table>
-            <button type="submit" class="boton">
-              <img src="./imagenes/correcto.png" alt="image" width="30" height="30">Enviar
-            </button>
-            <button type="reset" class="boton1">
-              <img src="./imagenes/basura.png" alt="borrar" width="30" height="30">Borrar
-            </button>
+            <div class="button-container">
+              <button type="submit" class="button-form">
+                <img src="./imagenes/correcto.png" alt="image">Enviar
+              </button>
+              <button type="reset" class="button-form">
+                <img src="./imagenes/basura.png" alt="borrar">Borrar
+              </button>
+            </div>
           </fieldset>
         </form>
-      </div>
     </section>
   </div>
   <section id="galeria">
