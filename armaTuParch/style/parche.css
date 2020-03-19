@@ -1,184 +1,175 @@
-@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Playball&display=swap');
+@import url("https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playball&display=swap");
 /* ELIMINAR ESTILOS POR DEFECTO */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 /* ESTILOS GENERALES */
 
 body {
-    background-color: seashell;
-    color: #57ABB3;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    text-align: center;
+  background-color: seashell;
+  color: #1a2533;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.contenedor {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.img {
+  max-height: 100%;
+  max-width: 100%;
 }
 
 /* ESTILOS DEL HEADER */
 
-.header{
-    background-image: url(../../imagenes/hombreConMaleta.jpg);
-    background-size: cover;
-    min-height: 450px;
-    background-position: center;
+.header {
+  background-image: url(../../imagenes/hero.jpg);
+  min-height: 400px;
+  background-position: center;
 }
 
-.logo{
-	max-width: 100%;
-	padding-top: 80px;
+.logo {
+  max-width: 100%;
+  padding-top: 70px;
 }
 
-.logodiv{
-	margin:0 auto;
-	width: 30%;
+.logodiv {
+  margin: 0 auto;
+  width: 30%;
 }
 
 .navbar {
-	background-color: #37A8B3;
+  padding: 20px 0;
 }
 
 .otherPage {
-	color:seashell;
-	font-size: 20px;
-	padding: 10px;
-	display:inline-block;
+  color: seashell;
+  font-size: 20px;
+  padding: 20px;
 }
+
 .otherPage:hover {
-	color: #82F4FF;
-    text-decoration: none;
+  color: #1a2533;
 }
 
 .iconoResponsive {
-	color: seashell;
-	font-size: 30px;
+  color: seashell;
+  font-size: 30px;
 }
 
 /* ESTILOS SECCION PLAN DEL MES */
 
 .title {
-    font-size: 50px;
-    padding: 20px 0;
-    margin: 20px 0;
+  font-size: 50px;
+  margin: 40px 0;
 }
 
-.section-plans{
-    align-items: center;
-    border-radius: 15px ;
-    border: 2px solid #57ABB3;
-    background-color: seashell;
-    color: black;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 30px;
-    margin: 10px auto;
-    width: 95%;
+.section-plans {
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid #36536e;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin-bottom: 20px;
 }
 
 .section-title {
-    font-family: 'ZCOOL QingKe HuangYou', ;
-    font-size: 30px;
-    padding: 10px 0;
+  font-family: "ZCOOL QingKe HuangYou";
+  font-size: 30px;
+  padding: 10px 0;
 }
 
-.text-container{
-    flex: 1 1 50%;
-    padding: 20px;
+.text-container {
+  flex: 1 1 50%;
+  padding: 20px;
 }
 
 .paragraph {
-    color:black;    
-    padding: 20px;
+  padding: 20px;
 }
 
-.list {
-    padding: 20px;
-}
-
-.slider-container{
-    flex: 1 1 50%;
-}
-
-.img {
-    max-height: 100%;
-    max-width: 100%;
+.slider-container {
+  flex: 1 1 50%;
 }
 
 .cupos-container {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    margin: 0 auto;
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0 auto;
 }
 
 .cupos-title {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .cupos-number {
-    border-radius: 5px;
-    border: 2px solid  #57ABB3;
-    height: 40px;
-    margin: 0 auto;
-    padding: 5px;
-    width: 80px;
+  border-radius: 5px;
+  border: 2px solid #36536e;
+  height: 40px;
+  padding: 5px;
+  width: 80px;
 }
 
 /* ESTILOS DEL FORMULARIO */
 .form-container {
-    display: block; 
-    position: relative;
-    border-radius: 15px;
-    margin: 0 auto;
-    padding: 50px 0;
-    width: 95%;
+  border-radius: 20px;
+  color: white;
+  font-size: 22px;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 95%;
 }
 
 .form-container::after {
-    content: '';
-    background-image: url(../../imagenes/slider5.jpg);
-    background-size: cover;
-    background-position: bottom;
-    opacity: .8;
-    top: 0; 
-    left: 0;
-     bottom: 0; 
-     right: 0; 
-     position: absolute; 
-    z-index: -1; 
+  content: "";
+  background-image: url(../../imagenes/slider5.jpg);
+  background-size: cover;
+  background-position: bottom;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
-.formulario
-{   
-    padding: 20px 30px;
-    font-size: 22px;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, .6);
-    max-width: 700px;
-    margin: 0 auto;
+.formulario {
+  padding: 20px 30px;
+  font-size: 22px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  max-width: 700px;
+  margin: 0 auto;
 }
-.input_form
-{
-    border:0;
-    border-bottom:white solid 2px;
-    margin-bottom: 8px;
-    width: 100%;
-    padding: 3px;
-    border-radius: 5px;
-    border-top-color: none;
-    outline: none;
-    background-color: transparent;
-    color: white;
+.input_form {
+  border: 0;
+  border-bottom: white solid 2px;
+  margin-bottom: 8px;
+  width: 100%;
+  padding: 3px;
+  border-radius: 5px;
+  border-top-color: none;
+  outline: none;
+  background-color: transparent;
 }
 .pedir
 /* {
@@ -194,191 +185,193 @@ body {
 {
     background-color: black;
 } */
-.tr_plan{
-    width: 100%;
+.tr_plan {
+  width: 100%;
 }
-.td_form
-{
-    text-align: right;
-    font-size: 16px;
-    font-style: oblique;
-    border: none;
-    padding-left: 10px;
-    width: 400px;
+.td_form {
+  text-align: right;
+  font-size: 16px;
+  font-style: oblique;
+  border: none;
+  padding-left: 10px;
+  width: 400px;
 }
-.texta_form
-{
-    border-radius: 5px; 
-    border-bottom: black double 3px;
-    outline: none;
-    background-color: transparent;
-    border-left: black 3px double;
-    border-right: black 3px double;
-    resize: none;
-    display: inline-block;
-    border-top: none;
-    color: white;
-
+.texta_form {
+  border-radius: 5px;
+  border-bottom: black double 3px;
+  outline: none;
+  background-color: transparent;
+  border-left: black 3px double;
+  border-right: black 3px double;
+  resize: none;
+  display: inline-block;
+  border-top: none;
+  color: white;
 }
-.button_form
-{
-    border-radius: 5px;
-    border-color:black;
-    text-align: center;
-    font-size: 13px;
-    font-style: oblique;
-    background-color: transparent;
-    outline-offset: none;
-    width: 70px;
-    height:25px;
-    margin-right: 35px;
-    color: white;
-
+.button_form {
+  border-radius: 5px;
+  border-color: black;
+  text-align: center;
+  font-size: 13px;
+  font-style: oblique;
+  background-color: transparent;
+  outline-offset: none;
+  width: 70px;
+  height: 25px;
+  margin-right: 35px;
+  color: white;
 }
-.button_form:hover
-{
-    background-color: seashell;
-    
+.button_form:hover {
+  background-color: seashell;
 }
-.boton
-{
-    width: 100px;
-    height: auto;
-    margin-left: 300px;
-    padding: 5px;
-    font-size: 17px;
-    border-radius: 5px;
-    border-color:black;
-    background-color: transparent;
+.boton {
+  width: 100px;
+  height: auto;
+  margin-left: 300px;
+  padding: 5px;
+  font-size: 17px;
+  border-radius: 5px;
+  border-color: black;
+  background-color: transparent;
 }
-.boton1
-{
-    margin-left: 20px;
-    width: 100px;
-    height:auto;
-    padding: 5px;
-    font-size: 17px;   
-    border-radius: 5px;
-    border-color:black;
-    background-color: transparent;
+.boton1 {
+  margin-left: 20px;
+  width: 100px;
+  height: auto;
+  padding: 5px;
+  font-size: 17px;
+  border-radius: 5px;
+  border-color: black;
+  background-color: transparent;
 }
 
-.legend{
-    justify-content: center;
-    align-items: center;
-    margin: 0 120px;
-    width: 100%;
-    height: 100%;
+.legend {
+  justify-content: center;
+  align-items: center;
+  margin: 0 120px;
+  width: 100%;
+  height: 100%;
 }
 
 /* ESTILOS DEL SLIDER */
 .slider {
-	width: 95%;
-    overflow: hidden;
-    margin: 0 auto;
+  width: 95%;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .slider ul {
-	display: flex;
-	width: 400%;
-	
-	animation: cambio 20s infinite alternate linear;
+  display: flex;
+  width: 400%;
+
+  animation: cambio 20s infinite alternate linear;
 }
 
 .slider img,
 .slider li {
-    border-radius: 5px;
-    border: 1px solid black;
-    height: 400px;
-	width: 100%;
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 400px;
+  width: 100%;
 }
-
 
 @keyframes cambio {
-	0% {margin-left: 0;}
-	20% {margin-left: 0;}
-	
-	25% {margin-left: -100%;}
-	45% {margin-left: -100%;}
-	
-	50% {margin-left: -200%;}
-	70% {margin-left: -200%;}
-	
-	75% {margin-left: -300%;}
-	100% {margin-left: -300%;}
-}
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
 
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
 
 /* ESTILOS FOOTER */
 
 .footer {
-    background: black;
-    font-size: 18px;
-    margin-top: 30px;
-    min-height: 200px;
+  background: black;
+  font-size: 18px;
+  margin-top: 30px;
+  min-height: 200px;
 }
 
 .footer-rs {
-    display:inline-block;
-    margin: 10px 0;
+  display: inline-block;
+  margin: 10px 0;
 }
 
 .footer-item {
-    color:#ffffff;
-    font-size: 40px;
-    padding: 10px;
+  color: seashell;
+  font-size: 40px;
+  padding: 10px;
 }
 
 .footer-item:hover {
-    color: #B0F8FF;
+  color: #1a2533;
 }
 
-
 .gotop-container {
-    position: relative;
-    top: -20px;
+  position: relative;
+  top: -20px;
 }
 
 .gotop {
-    border-radius: 50%;
-    border: 1px solid #37A8B3;
-    background-color: white;
-    color:  #37A8B3;
-    font-size: 20px ;
-    padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #36536e;
+  background-color: white;
+  color: #36536e;
+  font-size: 20px;
+  padding: 10px;
 }
 
 .copyright {
-    color:  #37A8B3;
-    font-size: 12px;
-    margin-top: 10px ;
+  color: #36536e;
+  font-size: 12px;
+  margin-top: 10px;
 }
 
-@media (max-width:1020px) {
-    .text-container,
-    .slider-container {
-        flex: 1 1 100%;
-    }
+@media (max-width: 1020px) {
+  .text-container,
+  .slider-container {
+    flex: 1 1 100%;
+  }
 }
 
-@media (max-width:620px) {
+@media (max-width: 620px) {
+  .header {
+    min-height: 300px;
+  }
 
-    .header {
-        min-height: 300px;
-    }
+  .logodiv {
+    width: 40%;
+  }
 
-    .logodiv {
-        width: 40%;
-    }
-
-    .title {
+  .title {
     font-size: 30px;
     padding: 10px 0;
     margin: 10px 0;
-}
+  }
 
-    .section-title {
+  .section-title {
     font-size: 25px;
-    }
-
+  }
 }
