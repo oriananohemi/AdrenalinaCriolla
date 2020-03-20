@@ -349,7 +349,16 @@ body {
   margin-top: 10px;
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 900px) {
+  .header {
+    background-position: center;
+  }
+
+  .logodiv {
+    margin: 0 40%;
+    width: 40%;
+  }
+
   .text-container,
   .slider-container {
     flex: 1 1 100%;
@@ -358,20 +367,22 @@ body {
 
 @media (max-width: 620px) {
   .header {
+    background-position: right;
     min-height: 300px;
   }
 
   .logodiv {
-    width: 40%;
+    margin: 0 auto;
+    width: 60%;
   }
 
   .title {
-    font-size: 30px;
+    font-size: 25px;
     padding: 10px 0;
     margin: 10px 0;
   }
 
   .section-title {
-    font-size: 25px;
+    font-size: 20px;
   }
 }

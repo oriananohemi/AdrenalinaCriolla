@@ -208,20 +208,6 @@ body {
   padding: 30px;
 }
 
-/* .form-container::after {
-  content: "";
-  background-image: url(../../imagenes/slider5.jpg);
-  background-size: cover;
-  background-position: bottom;
-  opacity: 0.8;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-} */
-
 .formulario {
   color: white;
   padding: 20px 30px;
