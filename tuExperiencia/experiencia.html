@@ -2,30 +2,22 @@
 <html lang="en">
 
 <head>
-	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
 	<title>Tu experiencia</title>
 	<link rel="stylesheet" href="./css/experienciaEstilos.css">
 	<link rel="stylesheet" href="css/estilos.css">
 	<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-
 	<link rel="shortcut icon" href="../imagenes/logo.png" type="image/x-icon">
-	<!--imagen de logo guardada en carpeta img, no se incluye archivo css.parche sino se incluye header y foot en experienciaEstilos -->
 	<link rel="stylesheet" href="css/sliderexperiencia.css">
 </head>
 
 <body>
-	<!-- HEADER -->
 	<header class="header" id="header">
 		<div class="logodiv">
-			<img class="logo" src="./imagenes/logo.png" alt="">
+			<img class="logo" src="../imagenes/logo.png" alt="">
 		</div>
 	</header>
 	<nav class="navbar navbar-expand-lg sticky-top navbar-toggeable-sm">
@@ -33,7 +25,6 @@
 			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<i class="fas fa-bars iconoResponsive"></i>
 		</button>
-
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav m-auto text-center navbar-center">
 				<li class="nav-item">
@@ -48,49 +39,31 @@
 			</ul>
 		</div>
 	</nav>
-	<!-- CUERPO -->
 	<div
 		class="d-flex align-content-center flex-xl-row flex-lg-row flex-md-row flex-sm-wrap justify-content-xl-around justify-content-lg-around justify-content-md-between contenedor-padre">
-		<!-- MENU LATERAL -->
-
-		<div class="menuVertical">
-			<br>
-			<br>
-
-			<button type="button" class="botones-menu" id="deporteN1" onclick="raf()">Balsismo </button>
-			<button type="button" class="botones-menu" id="deporteN2" onclick="can()">Tirolesa</button>
-			<button type="button" class="botones-menu" id="deporteN3" onclick="esc()">Escalada</button>
-			<button type="button" class="botones-menu" id="deporteN1" onclick="para()">Paracaidismo </button>
-			<button type="button" class="botones-menu" id="deporteN2" onclick="bung()">Puentismo </button>
-			<button type="button" class="botones-menu" id="deporteN3" onclick="parape()">Parapente </button>
+		<div class="menu-vertical">
+			<button type="button" class="buttons-menu" id="deporteN1" onclick="raf()">Balsismo </button>
+			<button type="button" class="buttons-menu" id="deporteN2" onclick="can()">Tirolesa</button>
+			<button type="button" class="buttons-menu" id="deporteN3" onclick="esc()">Escalada</button>
+			<button type="button" class="buttons-menu" id="deporteN1" onclick="para()">Paracaidismo </button>
+			<button type="button" class="buttons-menu" id="deporteN2" onclick="bung()">Puentismo </button>
+			<button type="button" class="buttons-menu" id="deporteN3" onclick="parape()">Parapente </button>
 		</div>
-		<!-- MAPA AL LADO  -->
-
-		<figure class="contenedor-mapa" style="left: 0; z-index: 1;">
+		<figure class="contenedor-mapa" style="z-index: 1;">
 			<div class="textoDeporte" id="textoDeporte" style="position: absolute; bottom: 30px;width:60%;font-size:1.5em;">
 				<p>
 
 				</p>
 			</div>
-			<img style="position: absolute;top: 0; left: 0px;" id="rafting" class="rafting mapa-deporte"
-				src="img/MapraftingMe.jpg" width:80%>
-			<img style="position: absolute;top: 0; left: 00px;" id="escalada" class="escalada mapa-deporte"
-				src="img/escaladaME.jpg" width:80%>
-			<img style="position: absolute;top: 0; left: 00px;" id="canopy" class="canopy mapa-deporte"
-				src="./imagenes/canopy.jpeg" width:80%>
-			<img style="position: absolute;top: 0; left: 00px;" id="colombia" class="colombia mapa-deporte"
-				src="img/colombiaMe.jpg" width:80%>
+			<img id="rafting" class="rafting mapa-deporte" src="../imagenes/MapraftingMe.png">
+			<img id="escalada" class="escalada mapa-deporte" src="../imagenes/escaladaMe.png">
+			<img id="canopy" class="canopy mapa-deporte" src="../imagenes/canopy.png">
+			<img id="colombia" class="colombia mapa-deporte" src="../imagenes/colombiaMe.png">
 			<div class="botones" id="botones">
-
 			</div>
 		</figure>
 
 	</div>
-	<!-- Inicio Modal Juan Morales -->
-
-
-
-	<!-- Modal 1 -->
 	<div class="modal fade bd-example-modal-xl " id="exampleModal1" tabindex="-1" role="dialog"
 		aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-xl " role="document">
@@ -112,7 +85,7 @@
 						conocer a fondo el río. </p>
 
 					<hr>
-					<img class="img-fluid" width="100%" src="./imagenes/raftingD.png">
+					<img class="img-fluid" src="../imagenes/r1.jpg">
 					<hr>
 				</div>
 				<div class="modal-footer">
@@ -135,14 +108,13 @@
 					</button>
 				</div>
 				<div class="modal-body">
-
 					<p> Río Barragán</p>
 					<hr>
 					<p>La práctica del rafting no exige gran preparación. Las balsas tienen capacidad para 4 a 8 personas y el
 						nivel de dificultad y riesgo depende de las características del caudal; por lo tanto, lo que más cuenta es
 						conocer a fondo el río. </p>
 					<hr>
-					<img class="img-fluid" width="100%" src="./imagenes/rafting2.png">
+					<img class="img-fluid" src="../imagenes/r2.jpeg">
 					<hr>
 				</div>
 				<div class="modal-footer">
@@ -173,7 +145,7 @@
 						nivel de dificultad y riesgo depende de las características del caudal; por lo tanto, lo que más cuenta es
 						conocer a fondo el río. </p>
 					<hr>
-					<img class="img-fluid" width="100%" src="./imagenes/rafting1.jpeg.png">
+					<img class="img-fluid" src="../imagenes/r3.png">
 					<hr>
 				</div>
 				<div class="modal-footer">
@@ -188,7 +160,6 @@
 		<div class="modal-dialog modal-xl" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-
 					<h5 class="modal-title" id="exampleModalLabel">Tolima</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<!-- <span aria-hidden="true">&times;</span> -->
@@ -201,7 +172,7 @@
 						nivel de dificultad y riesgo depende de las características del caudal; por lo tanto, lo que más cuenta es
 						conocer a fondo el río.</p>
 					<hr>
-					<img class="img-fluid" width="100%" src="./imagenes/rafting3.png">
+					<img class="img-fluid" width="100%" src="../imagenes/r4.png">
 					<hr>
 				</div>
 				<div class="modal-footer">
@@ -227,7 +198,7 @@
 					<p>El descenso de ríos o balsismo o rafting consiste en navegar río abajo, en una balsa neumática (raft), por
 						ríos con secciones turbulentas o “rápidos”.</p>
 					<hr>
-					<img class="img-fluid" width="100%" src="./imagenes/rafting4.png.jpg">
+					<img class="img-fluid" width="100%" src="../imagenes/r5.JPG">
 					<hr>
 				</div>
 				<div class="modal-footer">
@@ -987,48 +958,7 @@
 				</div>
 			</div>
 		</div>
-	</div>30
-
-	<!-- slider DIANA-->
-	<section class="slider">
-
-		<article>
-			<ul class="slider-portada">
-				<li>
-					<input type="radio" id="sbutton1" name="sradio" checked>
-					<!--name se usa para categorizar el input
-				checked para que aperezca seleccionado-->
-					<label for="sbutton1"></label>
-					<img src="img/D3.jpg" alt="obra1">
-				</li>
-				<li>
-					<input type="radio" id="sbutton2" name="sradio">
-					<!--name se usa para categorizar el input-->
-					<label for="sbutton2"></label>
-					<img src="img/D2.jpg" alt="obra2">
-				</li>
-				<li>
-					<input type="radio" id="sbutton3" name="sradio">
-					<!--name se usa para categorizar el input-->
-					<label for="sbutton3"></label>
-					<img src="img/D1.jpg" alt="obra3">
-				</li>
-
-				<li>
-					<input type="radio" id="sbutton4" name="sradio">
-					<!--name se usa para categorizar el input-->
-					<label for="sbutton4"></label>
-					<img src="img/DD.jpg" alt="obra4">
-				</li>
-			</ul>
-		</article>
-	</section>
-
-
-
-
-	<!-- Footer -->
-
+	</div>
 	<footer class="footer">
 		<div class="gotop-container">
 			<a href="#header"><i class="fa fa-angle-double-up fa-2x gotop"></i></a>
@@ -1049,8 +979,6 @@
 		</div>
 	</footer>
 	<script src="js/app.js"></script>
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
 		crossorigin="anonymous"></script>
@@ -1063,12 +991,6 @@
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-		crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 		crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/9fa96555ef.js"></script>
 	<script src="../js/script.js"></script>
