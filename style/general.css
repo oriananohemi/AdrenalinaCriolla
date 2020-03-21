@@ -203,7 +203,7 @@ body {
 /* ESTILOS SECCION CONTACTANOS */
 
 .section3 {
-  background-image: url(../imagenes/D2.jpg);
+  background-image: url(../imagenes/extreme.jpeg);
   background-size: cover;
   padding: 30px;
 }
@@ -215,7 +215,7 @@ body {
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.8);
   max-width: 600px;
-  margin-left: 10%;
+  margin-left: 40%;
 }
 
 .input_form {
@@ -267,36 +267,6 @@ body {
 .container-slider {
   display: flex;
   height: 565px;
-}
-
-.peq::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-
-.peq::-webkit-scrollbar-thumb {
-  background: black;
-  border-radius: 4px;
-}
-
-.peq::-webkit-scrollbar-thumb:active {
-  background-color: seashell;
-}
-
-.peq::-webkit-scrollbar-thumb:hover {
-  background: seashell;
-  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-/* Estilos track de scroll */
-.peq::-webkit-scrollbar-track {
-  background: seashell;
-  border-radius: 4px;
-}
-
-.peq::-webkit-scrollbar-track:hover,
-.peq::-webkit-scrollbar-track:active {
-  background: seashell;
 }
 
 .container-slider {
