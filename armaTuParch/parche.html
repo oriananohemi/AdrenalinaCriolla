@@ -141,49 +141,51 @@
         <form action="" name="formulario">
             <fieldset class="formulario">
                 <p class="legend">Dejanos tus datos</p>
-                <table>
-                    <tr>
-                        <td class="td_form">Nombres:</td>
-                        <td class="td_form"><input id="name" type="text" name="nombres" maxlength="30" 
-                                autofocus class="input_form"></td>
-                    </tr>
-                    <tr>
-                        <td class="td_form">Apellidos:</td>
-                        <td class="td_form"><input id="lastName" type="text" name="apellidos" maxlength="30" 
+                <div style="overflow-x: auto;">
+                    <table>
+                        <tr>
+                            <td class="td_form">Nombres:</td>
+                            <td class="td_form"><input id="name" type="text" name="nombres" maxlength="30" 
+                                    autofocus class="input_form"></td>
+                        </tr>
+                        <tr>
+                            <td class="td_form">Apellidos:</td>
+                            <td class="td_form"><input id="lastName" type="text" name="apellidos" maxlength="30" 
+                                    class="input_form">
+                            </td>
+                        </tr>
+                        <td class="td_form">Correo Electronico:</td>
+                        <td class="td_form"><input id="email" type="email" name="email" maxlength="30" 
                                 class="input_form">
                         </td>
-                    </tr>
-                    <td class="td_form">Correo Electronico:</td>
-                    <td class="td_form"><input id="email" type="email" name="email" maxlength="30" 
-                            class="input_form">
-                    </td>
-                    <tr class="tr_plan">
-                        <td class="td_form">Plan de la Tatacoa:</td>
-                        <td class="td_form"><span>Número de tiquetes: &nbsp;</span><label id="adicion">0</label>
-                            <button type="button" onclick="sustraer()" class="button_form">-</button>
-                            <button type="button" onclick="adicionar()" class="button_form">+</button>
-                            <!-- <button class="pedir" type="button" class="pedido" onclick="Agregar()">REALIZAR
-                                PEDIDO</button> -->
-                        </td>
-                    </tr>
-                    <tr class="tr_plan">
-                        <td class="td_form">Plan de Suesca:</td>
-                        <td class="td_form"><span>Número de tiquetes: &nbsp;</span><label id="adicion1">0</label>
-                            <button type="button" onclick="sustraer1()" class="button_form">-</button>
-                            <button type="button" onclick="adicionar1()" class="button_form">+</button>
-                            <!-- <button class="pedir" type="button" onclick="Agregar1()">REALIZAR PEDIDO</button> -->
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="td_form"><label for="message">Escribe tu mensaje:</label></td>
-                        <td class="td_form"><textarea id="message" rows="10" cols="40"  maxlength="150"
-                                id="message" class="texta_form"></textarea></td>
-                    </tr>
-                </table>
+                        <tr class="tr_plan">
+                            <td class="td_form">Plan de la Tatacoa:</td>
+                            <td class="td_form"><span>Número de tiquetes: &nbsp;</span><label id="adicion">0</label>
+                                <button type="button" onclick="sustraer()" class="button_form">-</button>
+                                <button type="button" onclick="adicionar()" class="button_form">+</button>
+                                <!-- <button class="pedir" type="button" class="pedido" onclick="Agregar()">REALIZAR
+                                    PEDIDO</button> -->
+                            </td>
+                        </tr>
+                        <tr class="tr_plan">
+                            <td class="td_form">Plan de Suesca:</td>
+                            <td class="td_form"><span>Número de tiquetes: &nbsp;</span><label id="adicion1">0</label>
+                                <button type="button" onclick="sustraer1()" class="button_form">-</button>
+                                <button type="button" onclick="adicionar1()" class="button_form">+</button>
+                                <!-- <button class="pedir" type="button" onclick="Agregar1()">REALIZAR PEDIDO</button> -->
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td_form"><label for="message">Escribe tu mensaje:</label></td>
+                            <td class="td_form"><textarea id="message" rows="10" cols="40"  maxlength="150"
+                                    id="message" class="texta_form"></textarea></td>
+                        </tr>
+                    </table>
+                </div>
                 <button type="submit" class="boton" onclick="Agregar();Agregar1()">
                     <img src="../imagenes/correcto.png" alt="image" width="30" height="30">Enviar
                 </button>
-                <button type="reset" class="boton1">
+                <button type="reset" class="boton">
                     <img src="../imagenes/basura.png" alt="borrar" width="30" height="30">Borrar
                 </button>
             </fieldset>

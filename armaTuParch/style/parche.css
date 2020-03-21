@@ -171,20 +171,6 @@ body {
   outline: none;
   background-color: transparent;
 }
-.pedir
-/* {
-    border-left-color: black;
-    background-color: transparent;
-    width: 300px;
-    margin: 5px;
-    border-bottom-color: black;
-    height: 30px;
-
-}
-.pedir:hover
-{
-    background-color: black;
-} */
 .tr_plan {
   width: 100%;
 }
@@ -226,31 +212,11 @@ body {
 }
 .boton {
   width: 100px;
-  height: auto;
-  margin-left: 300px;
   padding: 5px;
   font-size: 17px;
   border-radius: 5px;
   border-color: black;
   background-color: transparent;
-}
-.boton1 {
-  margin-left: 20px;
-  width: 100px;
-  height: auto;
-  padding: 5px;
-  font-size: 17px;
-  border-radius: 5px;
-  border-color: black;
-  background-color: transparent;
-}
-
-.legend {
-  justify-content: center;
-  align-items: center;
-  margin: 0 120px;
-  width: 100%;
-  height: 100%;
 }
 
 /* ESTILOS DEL SLIDER */
@@ -384,5 +350,13 @@ body {
 
   .section-title {
     font-size: 20px;
+  }
+
+  .section-plans {
+    display: block;
+  }
+
+  .cupos-container {
+    width: 200px;
   }
 }
